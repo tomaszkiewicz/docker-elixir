@@ -15,4 +15,6 @@ RUN set -xe \
 	&& cd /usr/local/src/elixir \
 	&& make install clean
 
+USER 5000
+
 CMD ["iex"]
